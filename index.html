@@ -13,47 +13,44 @@
 </head>
 
 <body>
-    <!-- primer contenidor -->
-    <div class="container">
-        <div id="upper-box-1">
-            <!-- ús del número 1 per diferenciar amb els containers posteriors -->
-            <div id="upper-left-box-1-1"></div>
-            <!-- ús del 1-1 per especificar que es tracta de la primera caixa del primer contenidor -->
-            <div id="upper-middle-box-1-1"></div>
-            <div id="upper-right-box-1-1"></div>
+    <!-- primer contenidor -> navegador -->
+    <nav class="container">
+        <div id="menu">
+            <div id="menu-1"></div>
+            <div id="menu-2"></div>
+            <div id="menu-3"></div>
         </div>
-        <div id="lower-box-1">
-            <div id="lower-box-1-2"></div>
-            <!-- és del 1-2 per especificar que es tracta de la segona caixa per primer contenidor-->
-        </div>
-    </div>
+        <header>
+            <div id="header-text"></div>
+        </header>
+    </nav>
 
-    <!-- segon contenidor -->
-    <div class="container-2">
-        <div id="left-box-2">
+    <!-- segon contenidor -> articles-->
+    <article>
+        <div id="main-article">
             <!-- ús del número 2 per especificar que és el segon contenidor -->
-            <div class="box-2-column">
+            <div class="article-text">
                 <!-- ús del 2-column per especificar que es tracta del segon contenidor, la columna -->
-                <div class="column-box"></div>
-                <div class="column-box"></div>
+                <div class="article-text-line"></div>
+                <div class="article-text-line"></div>
             </div>
-            <div class="box-2-column">
+            <div class="article-text">
                 <!-- construcció d'una segona columna igual a l'anterior, per això faig servir class enlloc de id -->
-                <div class="column-box"></div>
-                <div class="column-box"></div>
+                <div class="article-text-line"></div>
+                <div class="article-text-line"></div>
             </div>
-            <div id="bottom-box-2-1"></div>
+            <div id="article-footnote"></div>
         </div>
-        <div id="right-box-2">
-            <div class="box-column-2"></div>
-            <div class="box-column-2"></div>
-        </div>
-    </div>
+        <aside>
+            <div class="aside-text"></div>
+            <div class="aside-text"></div>
+        </aside>
+    </article>
 
-    <!-- tercer contenidor -->
-    <div class="container">
-        <div id="box-3"></div>
-    </div>
+    <!-- tercer contenidor -> footer -->
+    <footer class="container">
+        <div id="footer-text"></div>
+    </footer>
 
 </body>
 
